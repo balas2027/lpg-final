@@ -1,0 +1,5 @@
+{
+  "name": "LPG Gas Leakage Location Mapping System",
+  "description": "A web application for users to report LPG gas leakages and for agencies to track, manage, and resolve these incidents on a real-time map.",
+  "requestFramePermissions": []
+}
