@@ -82,7 +82,7 @@ const MapComponent: React.FC<MapComponentProps> = ({
                 <MapController panTo={panTo} fitBounds={fitBounds} />
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
+                    url="https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png?key=cb1_4xfm_1_1c7efe83388261476e2be1ef"
                 />
                 {reports.map((report) => (
                     <Marker
